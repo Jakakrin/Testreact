@@ -49,7 +49,7 @@ function Darkconten() {
         <img
           className="d-block"
           src={Paepa}
-          alt="Third slide"
+          alt="Third slidesss"
         />
       </Carousel.Item>
     </Carousel>

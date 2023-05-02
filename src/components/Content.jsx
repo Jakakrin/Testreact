@@ -6,6 +6,7 @@ function Content() {
     return (
         <div className="container">
             <section className="content-con">
+         
                 <div className="content-r">
                     <h2>ทำไมต้องเลือกเรา</h2>
                     <p>
