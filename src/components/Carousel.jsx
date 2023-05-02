@@ -62,13 +62,13 @@ function Carouse() {
       <div class="md-5">
       <div class='d-flex justify-content-center'>
       
-      <Button variant="outline-success">เพิ่มเติม</Button>
+      <Button variant="outline-success" size="lg">เพิ่มเติม</Button>
           </div>
       
           </div>  
 
 
-        <Content />
+        
     </div>
    
   );

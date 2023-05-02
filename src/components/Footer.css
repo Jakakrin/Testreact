@@ -1,0 +1,24 @@
+.footer {
+    background: #846F2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #846F2C;
+    position :absolute;
+width: 1440px;
+height: 198px;
+left: 0px;
+top: 3112px;;
+}
+
+.cover{
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
