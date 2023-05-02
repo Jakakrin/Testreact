@@ -50,7 +50,7 @@ function Carouse() {
 
 
     
-  <Secend / >
+  <Secend />
 
   <div class="md-5">
     <div class='d-flex justify-content-center'>

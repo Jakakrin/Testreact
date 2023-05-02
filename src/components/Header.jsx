@@ -1,8 +1,10 @@
 import React ,{useState} from 'react'
 import { FiCode, FiMenu , FiX } from 'react-icons/fi'
 import './Header.css'
-
-
+import Content from './Content';
+import Sileconnter from './Sile_conten'
+import  Carouse  from './Carousel'
+import Cotertabout from './about/Cotertabout'
 
 function Header() {
 
@@ -42,7 +44,12 @@ function Header() {
 
           
           </div>
+       
         </div>
+        <Carouse />
+        <Content/>
+        <Sileconnter />
+        <Cotertabout />
       </div>
         
     </div>
