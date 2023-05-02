@@ -12,7 +12,7 @@ function Header() {
       <div className='container'>
         <div className='header-con'>
           <div className="logo-container">
-            <a href='#'>รูป  </a>
+            <a href='#'>รูป</a>
           </div>
           <ul className={click ? "menu active":"menu"}>
             <li className='menu-link'>
