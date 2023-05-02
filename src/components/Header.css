@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 .header{
-    background: #333;
+    background: #fcfbfb;
     height: 70px;
 }
 .header-con{
@@ -13,7 +13,7 @@
     align-items: center;
 }
 .logo-container a{
-    color: #fff;
+    color: #0c0c0c;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
@@ -27,7 +27,7 @@
 }
 .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #0a0a0a;
 }
 .mobile-menu{
     display: none;
@@ -36,7 +36,7 @@
 @media screen and (max-width: 480px ) {
     .mobile-menu {
         display: block;
-        color: #fff;
+        color: #000000;
         font-size: 2rem;
     }
     .header{
@@ -52,10 +52,10 @@
         left: -100%;
         opacity: 0;
         transition: 0.5s ease;
-        background: #111;
+        background: #ffffff;
     }
     .menu.active{
-        background: #111;
+        background: rgb(255, 255, 255)fff;
         left: 0;
         opacity: 1;
         z-index: 1;

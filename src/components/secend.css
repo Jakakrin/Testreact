@@ -1,0 +1,12 @@
+.icad{
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+}
+.send{
+    margin: auto; 
+    width: 50%;   
+    border: 3px solid blue; 
+    padding: 3%; 
+}

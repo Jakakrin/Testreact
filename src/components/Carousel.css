@@ -6,3 +6,10 @@ height: 546px;
 left: 0px;
 top: 90px;
 }
+
+.wapp {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+}

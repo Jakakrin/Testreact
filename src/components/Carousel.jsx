@@ -1,6 +1,9 @@
-
+import Secend from '../components/Secend'
+import Card from '../components/Card'
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import './Carousel.css'
+import Content from '../components/Content'
 function Carouse() {
   return (
     <div>
@@ -45,8 +48,29 @@ function Carouse() {
     </Carousel>
 
 
-    </div>
+
     
+  <Secend / >
+
+  <div class="md-5">
+    <div class='d-flex justify-content-center'>
+      <h2>คลังพระเครื่อง</h2>
+    </div>
+        <Card / >
+
+      </div>
+      <div class="md-5">
+      <div class='d-flex justify-content-center'>
+      
+      <Button variant="outline-success">เพิ่มเติม</Button>
+          </div>
+      
+          </div>  
+
+
+        <Content />
+    </div>
+   
   );
 }
 
