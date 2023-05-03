@@ -46,10 +46,10 @@ function Header() {
           </div>
        
         </div>
-        <Carouse />
+        {/* <Carouse />
         <Content/>
         <Sileconnter />
-        <Cotertabout />
+        <Cotertabout /> */}
       </div>
         
     </div>
