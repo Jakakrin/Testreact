@@ -3,12 +3,19 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Wallper from '../../img/wallper.png'
+import Logo from '../../img/logo.png'
 import '../cuttomer/Datashop.css'
+import Lightbox from 'react-lightbox-component';
 function BasicExample() {
   return (
    
     <div>
 <div>
+    <div>
+    <Col md={4}>
+        <img src={Logo} alt="" />
+    </Col>
+    </div>
 <div>
 <Form>
     <Row>
@@ -82,10 +89,12 @@ function BasicExample() {
             
             <div class='d-flex justify-content-center'>
             
+              {/* <img class="imgeshow" variant="top" src={Wallper} />  
               <img class="imgeshow" variant="top" src={Wallper} />  
               <img class="imgeshow" variant="top" src={Wallper} />  
-              <img class="imgeshow" variant="top" src={Wallper} />  
-              <img class="imgeshow" variant="top" src={Wallper} />  
+              <img class="imgeshow" variant="top" src={Wallper} />   */}
+
+              
             </div>
             
     </div>
@@ -93,7 +102,42 @@ function BasicExample() {
     
     <div class='d-flex justify-content-center'>
    
-
+    <Lightbox images={
+      [
+        {
+          src:Wallper,
+          title: 'image title',
+          description: 'image description'
+        }
+      ]
+    }/>
+     <Lightbox images={
+      [
+        {
+          src:Wallper,
+          title: 'image title',
+          description: 'image description'
+        }
+      ]
+    }/>
+     <Lightbox images={
+      [
+        {
+          src:Wallper,
+          title: 'image title',
+          description: 'image description'
+        }
+      ]
+    }/>
+         <Lightbox images={
+      [
+        {
+          src:Wallper,
+          title: 'image title',
+          description: 'image description'
+        }
+      ]
+    }/>
     </div>
     <div class='d-flex justify-content-center'>
         <h3><b>ใบรับรอง</b></h3>   
