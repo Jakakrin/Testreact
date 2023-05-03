@@ -46,13 +46,13 @@ function Header() {
     //       </div>
        
     //     </div>
-        <Carouse />
-        <Content/>
-        <Sileconnter />
+    //     <Carouse />
+    //     <Content/>
+    //     <Sileconnter />
 
-      </div>
+    //   </div>
         
-    </div>
+    // </div>
   )
   }
 

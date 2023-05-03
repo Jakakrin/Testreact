@@ -11,7 +11,7 @@ import {
 export default function SearchBar() {
   return (
     <Container className="mt-3">
-      <div class='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center'>
       <Col sm={4}>
           <Form className="d-flex">
             <InputGroup>

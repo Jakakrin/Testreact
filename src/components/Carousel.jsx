@@ -3,7 +3,6 @@ import Card from "../components/Card";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import "./Carousel.css";
-import Content from "../components/Content";
 import wallpere from "../img/wallper.png";
 import conntere from "../img/connter.png";
 function Carouse() {
@@ -33,14 +32,14 @@ function Carouse() {
 
       <Secend />
 
-      <div class="md-5">
-        <div class="d-flex justify-content-center">
+      <div className="md-5">
+        <div className="d-flex justify-content-center">
           <h2>คลังพระเครื่อง</h2>
         </div>
         <Card />
       </div>
-      <div class="md-5">
-        <div class="d-flex justify-content-center">
+      <div className="md-5">
+        <div className="d-flex justify-content-center">
           <Button variant="outline-success" size="lg">
             เพิ่มเติม
           </Button>
