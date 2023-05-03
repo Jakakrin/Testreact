@@ -1,69 +1,44 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import { GiRocketThruster } from "react-icons/gi";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-function Navbar() {
-  const [click, setClick] = useState(false);
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
+export default function Menu() {
   return (
-    <>
-      <IconContext.Provider value={{ color: "#fff" }}>
-        <nav className="navbar">
-          <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <GiRocketThruster className="navbar-icon" />
-              Skye
-            </Link>
-            <div className="menu-icon" onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
-            </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <li className="nav-item">
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  Contact
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </IconContext.Provider>
-    </>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="p-3">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/about">
+                About
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              {' '}
+              <Link className="text-decoration-none text-white" to="/contact">
+                Contact Us
+              </Link>
+            </Nav.Link>
+          </Nav>
+          <Nav className="gap-2">
+            <Nav.Link className="btn btn-primary" href="#">Login</Nav.Link>
+            <Nav.Link eventKey={2} className="btn btn-light text-black" href="#">
+              Sign up
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
-
-export default Navbar;

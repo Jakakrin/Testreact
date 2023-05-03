@@ -1,9 +1,14 @@
 import React from "react";
-import Header from '../Header'
+// import Header from '../Header'
+import Content from './Content';
+import Sileconnter from './Sile_conten'
+import  Carouse  from './Carousel'
 const Home = () => {
   return (
     <div>
-      <Header/>
+          <Carouse />
+        <Content/>
+        <Sileconnter />
     </div>
   );
 };

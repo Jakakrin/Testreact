@@ -17,6 +17,10 @@ top: 325px;
 .app-section {
     padding: 20px;
 }
+.imgcard{
+  height: 231px;
+    width: 162px;
+}
 .wrapper {
     margin: 2rem;
     display: grid;
