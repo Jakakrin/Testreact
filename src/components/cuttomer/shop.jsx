@@ -27,14 +27,10 @@ function TextExamp() {
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
-              <Card.Img variant="top" src={namepro} />
-              <Card.Body>
-                <Card.Text>นายเอ นามสกุลบี</Card.Text>
-              </Card.Body>
-              <Card.Img variant="top" src={namepro} />
-              <Card.Body>
-                <Card.Text>นายเอ นามสกุลบี</Card.Text>
-              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
@@ -47,14 +43,15 @@ function TextExamp() {
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
-              <Card.Img variant="top" src={namepro} />
-              <Card.Body>
-                <Card.Text>นายเอ นามสกุลบี</Card.Text>
-              </Card.Body>
-              <Card.Img variant="top" src={namepro} />
-              <Card.Body>
-                <Card.Text>นายเอ นามสกุลบี</Card.Text>
-              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Row>
+      <Row>
+        <Row>
+          <Col></Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
@@ -67,15 +64,24 @@ function TextExamp() {
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Row>
+      <Row>
+        <Row>
+          <Col></Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
-              <Card.Body>
-                <Card.Text>นายเอ นามสกุลบี</Card.Text>
-              </Card.Body>
-                            <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
@@ -87,15 +93,40 @@ function TextExamp() {
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Row>
+      <Row>
+        <Row>
+          <Col></Col>
+          <Col>
+            <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
-                            <Card.Img variant="top" src={namepro} />
+            </Card>
+          </Col>
+          <Col>
+            <Card className="imgcard">
+              <Card.Img variant="top" src={namepro} />
+              <Card.Body>
+                <Card.Text>นายเอ นามสกุลบี</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="imgcard">
+              <Card.Img variant="top" src={namepro} />
               <Card.Body>
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>

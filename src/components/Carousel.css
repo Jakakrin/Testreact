@@ -1,15 +1,12 @@
-.Carousel.Item
-{
-    position: absolute;
-width: 1440px;
-height: 546px;
-left: 0px;
-top: 90px;
-}
 
 .wapp {
     text-align: center;
-    background: white;
+    background: rgb(0, 0, 0);
     margin: 20px 0;
     padding: 10px;
+}
+.Carou{
+
+    width: 2000px;
+height: 500px;
 }

@@ -10,23 +10,17 @@ function Carouse() {
     <div>
       <Carousel>
         <Carousel.Item>
+          <img className="d-block Carou d-flex justify-content-center" src={wallpere} alt="First slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block Carou d-flex justify-content-center" src={conntere} alt="Second slide" />
+        </Carousel.Item>
+        <Carousel.Item>
           <img
-            className="d-block w-100 h-100"
+            className="d-block Carou d-flex justify-content-center"
             src={wallpere}
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={conntere} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://c4.wallpaperflare.com/wallpaper/546/9/293/monster-pc-monster-notebooks-computer-game-hd-wallpaper-preview.jpg"
             alt="Third slide"
           />
-
-
         </Carousel.Item>
       </Carousel>
 
