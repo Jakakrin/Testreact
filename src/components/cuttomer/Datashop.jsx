@@ -10,7 +10,7 @@ import "../cuttomer/Datashop.css";
 import Example from"../cuttomer/Modal/Modale";
 // import 'bootstrap/js/src/modal'
 // import 'bootstrap/dist/css/bootstrap.min.css'
-import toyle from "../../img/loedpi.png";
+// import toyle from "../../img/loedpi.png";
 function BasicExample() {
 
   return (

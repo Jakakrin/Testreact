@@ -25,13 +25,8 @@ function Carouse() {
       </Carousel>
 
       <Secend />
-
-      <div className="md-5">
-        <div className="d-flex justify-content-center">
-          <h2>คลังพระเครื่อง</h2>
-        </div>
-        <Card />
-      </div>
+<Card />
+      
       <div className="md-5">
         <div className="d-flex justify-content-center">
           <Button variant="outline-success" size="lg">
