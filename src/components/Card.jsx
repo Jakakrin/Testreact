@@ -6,65 +6,36 @@ function TextExample() {
     <Container>
       <Row className="app-section ">
         <Col className="app-container  ">
-          <Col className="md-5">
-            <Col className="d-flex justify-content-center">
-              <h2>คลังพระเครื่อง</h2>
-            </Col>
-          </Col>
-
           <Col className="d-flex justify-content-center">
-            <Col className="grid grid-3">
-              <Card class="" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={loedpi} />
-                <Card.Body>
-                  <Card.Text>พระกรุวัดพลับ-กรุวัดพลับ</Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
+            <h2>คลังพระเครื่อง</h2>
           </Col>
         </Col>
+         <Row className="d-flex justify-content-center">
+          <Col className="grid grid-3">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={loedpi} />
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={loedpi} />
+ 
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={loedpi} />
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={loedpi} />
+
+            </Col>
+          </Col>
+          
+        </Row>
+
       </Row>
     </Container>
   );

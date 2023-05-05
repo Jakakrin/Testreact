@@ -5,7 +5,8 @@
 }
 
 .grid-3 {
-    grid-template-columns: 0fr 0fr 0fr 0fr;
+  width: 298px;
+  height: 414px;;
 }
 .app-section {
     padding: 20px;

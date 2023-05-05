@@ -1,63 +1,49 @@
-import {Card,Button} from 'react-bootstrap';
- import '../about/Cardabout.css'
-import namepro from '../../img/namepro.png'
+import { Card, Button, Col, Row,Container } from "react-bootstrap";
+import "../about/Cardabout.css";
+import namepro from "../../img/namepro.png";
 function TextExampl() {
   return (
-    <div className='app-section '>
-      <div className='app-container  '>
-    <div className='d-flex justify-content-center'>
-        <h2>ทีมงาน</h2>
-    </div>
-    
-      <div className='d-flex justify-content-center'>
-  <div className='grid grid-3'>
-  <Card className='' style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={namepro} />
-      <Card.Body>
-        <Card.Text>
-        นายเอ นามสกุลบี
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={namepro} />
-      <Card.Body>
-        <Card.Text>
-       นายบี นามสกุลเอ
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={namepro} />
-      <Card.Body>
-        <Card.Text>
-        นายซี นามสกุลจี
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={namepro} />
-      <Card.Body>
-        <Card.Text>
-        นายจี นามสกุล ซี
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    
+    <Container>
 
-    </div>
 
-    
-    
+
    
+    <Col className="app-section ">
+      <Col className="app-container  ">
+        <Col className="d-flex justify-content-center">
+          <h2>ทีมงาน</h2>
+        </Col>
 
-    </div>
-  
-      </div>
-    </div>
-    
+        <Row className="d-flex justify-content-center">
+          <Col className="grid grid-3">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={namepro} />
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={namepro} />
+ 
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={namepro} />
+            </Col>
+          </Col>
+          <Col className="grid">
+            <Col className="" style={{ width: "12rem" }}>
+              <Card.Img variant="top" src={namepro} />
 
-    
+            </Col>
+          </Col>
+          
+        </Row>
+
+        
+      </Col>
+    </Col>
+    </Container>
   );
 }
 
