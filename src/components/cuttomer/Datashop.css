@@ -4,24 +4,14 @@
     column-gap: 16px;
 }
 
-.grid-1 {
-    grid-template-columns: 1fr;
-}
 
-.grid-2 {
-    grid-template-columns: 1fr 1fr;
-}
 
-.grid-3 {
-    grid-template-columns: 1fr 1fr 1fr;
-}
 .box {
     border: 1px solid rgb(8, 158, 207);
     border-radius: 12px;
     padding: 8px 16px;
 }
-.imge {
-    position: absolute;
+.imgeese {
 width: 740px;
 height: 470px;
 }
@@ -32,8 +22,8 @@ height: 470px;
 
 }
 .imge{
-    height: 49%;
-    width: 58%;
+    height: 500px;
+    width: 908px;
 }
 .imges{
     height: 90%;
@@ -47,4 +37,15 @@ height: 470px;
 .Lightbox{
     width: 257px;
     height: 270px;
+}
+
+.fontherder{
+    color: #846F2C;
+}
+.bginput{
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
+    border-radius: 10px;
+
 }

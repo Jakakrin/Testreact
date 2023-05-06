@@ -2,7 +2,7 @@ import { React } from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "../about/Cotertabout.css";
 import logo from "../../img/logo.png";
-import Cardaot from "./Cardabout";
+// import Cardaot from "./Cardabout";
 import namepro from "../../img/namepro.png";
 function Cotertabout() {
   return (
@@ -12,7 +12,7 @@ function Cotertabout() {
           <img src={logo} alt="" />
         </Col>
         <Col className="content-r ">
-          <Col>
+          <Col className="fontcolor"> 
             <h2>เกี่ยวกับเรา</h2>
           </Col>
           <Col>
@@ -32,7 +32,7 @@ function Cotertabout() {
       </Row>
       <Row className="content-con">
         <Col className="content-r contbg">
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col className="fontcolor" md={{ span: 6, offset: 3 }}>
             <h2>ทำไมต้องเลือกเรา</h2>
           </Col>
           <Col md={{ span: 7, offset: 3 }}>
@@ -52,22 +52,22 @@ function Cotertabout() {
       <Row>
         <Col className="contbg">
           {/* <Cardaot /> */}
-          <Col className="d-flex justify-content-center">
+          <Col className="d-flex justify-content-center fontcolor">
             <h2>ทีมงาน</h2>
           </Col>
           <Col>
             <Col className="grid grid-3">
               <Col className="">
-                <img className="imge"variant="top" src={namepro} />
+                <img className="imgegg"variant="top" src={namepro} />
+              </Col>
+              <Col className="imgegg">
+                <img className="imgegg"variant="top" src={namepro} />
               </Col>
               <Col className="">
-                <img className="imge"variant="top" src={namepro} />
+                <img className="imgegg"variant="top" src={namepro} />
               </Col>
               <Col className="">
-                <img className="imge"variant="top" src={namepro} />
-              </Col>
-              <Col className="">
-                <img className="imge"variant="top" src={namepro} />
+                <img className="imgegg"variant="top" src={namepro} />
               </Col>
               
             </Col>

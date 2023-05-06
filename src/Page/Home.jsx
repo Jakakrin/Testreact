@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Content from "../components/Content";
 import Sileconnter from "../components/Sile_conten";
 import Carouse from "../components/Carousel";

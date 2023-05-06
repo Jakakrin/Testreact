@@ -2,11 +2,11 @@
     display: grid;
     row-gap: 16px;
     column-gap: 16px;
+    
 }
 
 .grid-3 {
-  width: 298px;
-  height: 414px;;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .app-section {
     padding: 20px;
@@ -15,7 +15,7 @@
     margin: 2rem;
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
   }
 .app-container {

@@ -7,3 +7,7 @@
     height: 362px;
     width: 260px;
 }
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+

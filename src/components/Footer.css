@@ -1,23 +1,8 @@
-.footer {
-    background: #846F2C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #846F2C;
-    
-width: 1440px;
-height: 198px;
-position :absolute;
-}
-
-.cover{
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-color: #FFFFFF;
-
+.main-footer {
+  color: white;
+  background-color: #846F2C;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

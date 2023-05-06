@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import loedpie from "../../../img/loedpi.png";
@@ -13,8 +13,8 @@ function Example() {
   return (
     <>
       <Container>
-        <Row>
-          <Col>
+        <Row className="grid-3">
+          <Col >
             <img
               className="imgsss"
               variant="top"
@@ -89,31 +89,7 @@ function Example() {
               </Modal.Header>
             </Modal>
           </Col>
-          <Col>
-            <img
-              className="imgsss"
-              variant="top"
-              src={loedpie}
-              onClick={() => setSmShow(true)}
-            />
-              <Modal
-              size="sm"
-              show={smShow}
-              onHide={() => setSmShow(false)}
-              aria-labelledby="example-modal-sizes-title-sm"
-            >
-              <Modal.Header >
-                <Modal.Title id="example-modal-sizes-title-sm">
-                <img
-              className="imgmodal"
-              variant="top"
-              src={loedpie}
-              onClick={() => setSmShow(true)}
-            />
-                </Modal.Title>
-              </Modal.Header>
-            </Modal>
-          </Col>
+
         </Row>
       </Container>
 

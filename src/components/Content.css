@@ -17,7 +17,13 @@
     padding: 2rem;
     text-align: left;
 }
-
+.contbg {
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
+  }
+  .fontherder{
+    color: #846F2C;
+  }
 @media screen and (max-width: 480px) {
     .content-con {
         flex-direction: column;

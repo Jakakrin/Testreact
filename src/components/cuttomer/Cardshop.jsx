@@ -20,9 +20,9 @@ function TextExamp() {
 
         <Row>
           <Col>
-            <Lastgrop />
+            {/* <Lastgrop /> */}
           </Col>
-          <Col>
+          {/* <Col>
             <Card className="imgcard">
               <Card.Img variant="top" src={namepro} />
               <Card.Body>
@@ -53,7 +53,7 @@ function TextExamp() {
                 <Card.Text>นายเอ นามสกุลบี</Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           
         </Row>
        

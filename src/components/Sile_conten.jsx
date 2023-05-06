@@ -8,12 +8,12 @@ function Darkconten() {
   return (
     <Container>
       <Row>
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center fontherder">
           <h3>ข่าวสารและกิจกรรม</h3>
         </Col>
       </Row>
 
-      <Col className="sile_conter">
+      <Col className="sile_conter contbg">
         <Carousel variant="dark">
           <Carousel.Item>
             <Row>

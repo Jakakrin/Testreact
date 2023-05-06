@@ -1,69 +1,121 @@
 // import React from "react";
-// import "./Footer.css";
-// import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
-// import Container from "react-bootstrap/Container";
-// function Footer() {
+// import {
+//   Box,
+//   Container,
+//   Row,
+//   Column,
+//   FooterLink,
+//   Heading,
+// } from "./Footer";
+
+// const Footer = () => {
 //   return (
-//     <Container>
-//       <Row className="footer">
-//         <Col class="cover">
-//           <Col>
-//           <p class="cover">ที่ตั้งบริษัท</p>
-//           <p class="cover">2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
-//           <p class="cover">85486 </p>
-//           </Col>
-//           <Col md={{ span: 9, offset: 9 }}>
-//             <p class="cover">Copyright </p>
-//           </Col>
-//           <Col md={{ span: 9, offset: 9 }}>
-//             <p class="cover">Copyright </p>
-//           </Col>
-//         </Col>
-//       </Row>
-//     </Container>
+//     <Box>
+//       <h1 style={{ color: "green",
+//                    textAlign: "center",
+//                    marginTop: "-50px" }}>
+//         GeeksforGeeks: A Computer Science Portal for Geeks
+//       </h1>
+//       <Container>
+//         <Row>
+//           <Column>
+//             <Heading>About Us</Heading>
+//             <FooterLink href="#">Aim</FooterLink>
+//             <FooterLink href="#">Vision</FooterLink>
+//             <FooterLink href="#">Testimonials</FooterLink>
+//           </Column>
+//           <Column>
+//             <Heading>Services</Heading>
+//             <FooterLink href="#">Writing</FooterLink>
+//             <FooterLink href="#">Internships</FooterLink>
+//             <FooterLink href="#">Coding</FooterLink>
+//             <FooterLink href="#">Teaching</FooterLink>
+//           </Column>
+//           <Column>
+//             <Heading>Contact Us</Heading>
+//             <FooterLink href="#">Uttar Pradesh</FooterLink>
+//             <FooterLink href="#">Ahemdabad</FooterLink>
+//             <FooterLink href="#">Indore</FooterLink>
+//             <FooterLink href="#">Mumbai</FooterLink>
+//           </Column>
+//           <Column>
+//             <Heading>Social Media</Heading>
+//             <FooterLink href="#">
+//               <i className="fab fa-facebook-f">
+//                 <span style={{ marginLeft: "10px" }}>
+//                   Facebook
+//                 </span>
+//               </i>
+//             </FooterLink>
+//             <FooterLink href="#">
+//               <i className="fab fa-instagram">
+//                 <span style={{ marginLeft: "10px" }}>
+//                   Instagram
+//                 </span>
+//               </i>
+//             </FooterLink>
+//             <FooterLink href="#">
+//               <i className="fab fa-twitter">
+//                 <span style={{ marginLeft: "10px" }}>
+//                   Twitter
+//                 </span>
+//               </i>
+//             </FooterLink>
+//             <FooterLink href="#">
+//               <i className="fab fa-youtube">
+//                 <span style={{ marginLeft: "10px" }}>
+//                   Youtube
+//                 </span>
+//               </i>
+//             </FooterLink>
+//           </Column>
+//         </Row>
+//       </Container>
+//     </Box>
 //   );
-// }
-
+// };
 // export default Footer;
-import React from "react"
 
-const Footer = () => <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
+import React from "react";
+import "./Footer.css";
+
+function Footer() {
+  return (
+    <div className="main-footer">
+      <div className="container">
         <div className="row">
-            <div className="col-md-6 mt-md-0 mt-3">
-                <h5 className="text-uppercase">Footer Content</h5>
-                <p>Here you can use rows and columns to organize your footer content.</p>
-            </div>
+          {/* Column1 */}
+          <div className="col">
+            <h5>ที่ตั้งบริษัท</h5>
+            <h6 className="list-unstyled">
+              <li>2972 Westheimer Rd. Santa Ana, Illinois 85486 </li>
 
-            <hr className="clearfix w-100 d-md-none pb-0"/>
-
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Links</h5>
-                <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
-
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Links</h5>
-                <ul className="list-unstyled">
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
+              <li>0812345666</li>
+            </h6>
+          </div>
+          {/* Column2 */}
+          <div className="col">
+            <h5>หน้าหลัก</h5>
+          </div>
+          {/* Column3 */}
+          <div className="col">
+            <h5>เกี่ยวกับเรา</h5>
+          </div>
+          <div className="col">
+            <h5>คลังพระเครือง</h5>
+            <br/>
+            <br/>
+            <li>Copyright</li>
+          </div>
+  
         </div>
+        <hr />
+        <div className="row">
+            <div className=""></div>
+        </div>
+      </div>
     </div>
+  );
+}
 
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-    </div>
-
-</footer>
-
-export default Footer
+export default Footer;
