@@ -16,5 +16,7 @@
   .fontherder{
     color:#846F2C ;
   }
-
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background: #846f2c;
+  }
 
