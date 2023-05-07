@@ -94,24 +94,29 @@ function Footer() {
             </h6>
           </div>
           {/* Column2 */}
-          <div className="col">
-            <h5>หน้าหลัก</h5>
+          <div className="col" >
+            <a href="/home" className="fontfooter">
+              <h5>หน้าหลัก</h5>
+            </a>
           </div>
           {/* Column3 */}
-          <div className="col">
+          <div className="col" >
+          <a href="/about" className="fontfooter">
             <h5>เกี่ยวกับเรา</h5>
+            </a>
           </div>
-          <div className="col">
+          <div className="col ">
+          <a href="/contact" className="fontfooter">
             <h5>คลังพระเครือง</h5>
-            <br/>
-            <br/>
+            </a>
+            <br />
+            <br />
             <li>Copyright</li>
           </div>
-  
         </div>
         <hr />
         <div className="row">
-            <div className=""></div>
+          <div className=""></div>
         </div>
       </div>
     </div>

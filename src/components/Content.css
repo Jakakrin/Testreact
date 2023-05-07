@@ -17,6 +17,10 @@
     padding: 2rem;
     text-align: left;
 }
+.bgtongee {
+    background-color: #4c7a6d;
+    color: #ffffff;
+  }
 .contbg {
     background: #ffffff;
     box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);

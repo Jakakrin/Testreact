@@ -44,10 +44,12 @@ class NavBarExample extends Component {
           <a href="/home">
             <img className="inglogo" src={logo} alt="" />
           </a>
-          <div>
+          <div className="">
             <ul
+
+            
               id="navbar"
-              className={this.state.clicked ? "#navbar active" : "#navbar"}
+              className={this.state.clicked ? "#navbar active" : "#navbar "}
             >
               <li>
                 <a className="active" href="/home">
@@ -61,7 +63,7 @@ class NavBarExample extends Component {
                 <a href="/contact">คลังพระเครือง</a>
               </li>
               <li>
-                <Button variant="outline-success" align="right">
+                <Button className="bgbutton"variant="success" align="right">
                   สมัครสมาชิก
                 </Button>
               </li>

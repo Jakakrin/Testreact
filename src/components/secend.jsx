@@ -35,7 +35,7 @@ export default function SearchBar() {
               </InputGroup.Text>
               <FormControl type="search" className="me-2" placeholder="Search" />
             </InputGroup>
-            <Button variant="outline-success" size="sm">
+            <Button className="bgbutton"variant="success" size="sm">
               ค้นหา
             </Button>
           </Form>

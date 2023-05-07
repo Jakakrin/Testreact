@@ -13,7 +13,7 @@ import Example from "../cuttomer/Modal/Modale";
 // import toyle from "../../img/loedpi.png";
 function BasicExample() {
   return (
-    <Container>
+    <Container fluid="md">
       <Col className="d-flex justify-content-center fontherder">
         <h3>พระกรุวัดพลับ-กรุวัดพลับ</h3>
       </Col>
@@ -103,7 +103,7 @@ function BasicExample() {
           </h3>
         </Col>
         <Row>
-          <Col className="d-flex justify-content-center">
+          <Col  className="d-flex justify-content-center">
             <img className="imge" variant="top" src={Wallper} />
           </Col>
         </Row>

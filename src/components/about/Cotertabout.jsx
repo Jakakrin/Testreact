@@ -12,7 +12,7 @@ function Cotertabout() {
           <img src={logo} alt="" />
         </Col>
         <Col className="content-r ">
-          <Col className="fontcolor"> 
+          <Col className="fontcolor">
             <h2>เกี่ยวกับเรา</h2>
           </Col>
           <Col>
@@ -55,22 +55,25 @@ function Cotertabout() {
           <Col className="d-flex justify-content-center fontcolor">
             <h2>ทีมงาน</h2>
           </Col>
-          <Col>
-            <Col className="grid grid-3">
-              <Col className="">
-                <img className="imgegg"variant="top" src={namepro} />
-              </Col>
-              <Col className="imgegg">
-                <img className="imgegg"variant="top" src={namepro} />
-              </Col>
-              <Col className="">
-                <img className="imgegg"variant="top" src={namepro} />
-              </Col>
-              <Col className="">
-                <img className="imgegg"variant="top" src={namepro} />
-              </Col>
-              
+          <Row xs="auto">
+            <Col className="">
+              <img className="imgegg" variant="top" src={namepro} />
             </Col>
+            <Col className="">
+              <img className="imgegg" variant="top" src={namepro} />
+            </Col>
+            <Col className="">
+              <img className="imgegg" variant="top" src={namepro} />
+            </Col>
+            <Col className="">
+              <img className="imgegg" variant="top" src={namepro} />
+            </Col>
+          </Row>
+
+          <Col>
+            <Row>
+              <Col className="grid grid-3"></Col>
+            </Row>
           </Col>
         </Col>
       </Row>
