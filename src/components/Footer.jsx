@@ -78,6 +78,7 @@
 
 import React from "react";
 import "./Footer.css";
+import { Container } from "react-bootstrap";
 
 function Footer() {
   return (
@@ -94,20 +95,20 @@ function Footer() {
             </h6>
           </div>
           {/* Column2 */}
-          <div className="col" >
+          <div className="col">
             <a href="/home" className="fontfooter">
               <h5>หน้าหลัก</h5>
             </a>
           </div>
           {/* Column3 */}
-          <div className="col" >
-          <a href="/about" className="fontfooter">
-            <h5>เกี่ยวกับเรา</h5>
+          <div className="col">
+            <a href="/about" className="fontfooter">
+              <h5>เกี่ยวกับเรา</h5>
             </a>
           </div>
           <div className="col ">
-          <a href="/contact" className="fontfooter">
-            <h5>คลังพระเครือง</h5>
+            <a href="/contact" className="fontfooter">
+              <h5>คลังพระเครือง</h5>
             </a>
             <br />
             <br />

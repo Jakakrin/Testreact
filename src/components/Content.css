@@ -10,7 +10,7 @@
     padding: 5rem 0;
 }
 .content-l img {
-    width: 100%;
+    width: auto;
     border-radius: 10px;
 }
 .content-r {
@@ -22,6 +22,7 @@
     color: #ffffff;
   }
 .contbg {
+    
     background: #ffffff;
     box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
   }

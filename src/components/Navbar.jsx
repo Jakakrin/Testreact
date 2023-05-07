@@ -2,8 +2,8 @@ import { Navbar, Nav, Container, Col, Button, Row } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import logo from "../img/logo.png";
 import { Component } from "react";
-import "../components/Navbar.css";
 
+import "../components/Navbar.css";
 
 class NavBarExample extends Component {
   // const NavBarExample = () => {
@@ -40,19 +40,21 @@ class NavBarExample extends Component {
       </Navbar>
 
        */}
+
         <nav>
-          <a href="/home">
-            <img className="inglogo" src={logo} alt="" />
-          </a>
+          <div>
+            <a href="/home">
+              <img className="inglogo" src={logo} alt="" />
+            </a>
+          </div>
+
           <div className="">
             <ul
-
-            
               id="navbar"
-              className={this.state.clicked ? "#navbar active" : "#navbar "}
+              className={this.state.clicked ? "#navbar active" : "navbar "}
             >
               <li>
-                <a className="active" href="/home">
+                <a className="" href="/home">
                   หน้าหลัก
                 </a>
               </li>
@@ -62,14 +64,14 @@ class NavBarExample extends Component {
               <li>
                 <a href="/contact">คลังพระเครือง</a>
               </li>
-              <li>
-                <Button className="bgbutton"variant="success" align="right">
-                  สมัครสมาชิก
-                </Button>
-              </li>
+              <li></li>
             </ul>
           </div>
-
+          <div>
+            <Button color="#4C7A6D" className="bgbutton">
+              สมัครสมาชิก
+            </Button>
+          </div>
           <div id="mobile" onClick={this.handleClick}>
             <i
               id="bar"
@@ -77,6 +79,7 @@ class NavBarExample extends Component {
             ></i>
           </div>
         </nav>
+
         <section>
           <Outlet></Outlet>
         </section>

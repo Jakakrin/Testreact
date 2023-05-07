@@ -17,7 +17,7 @@ function BasicExample() {
       <Col className="d-flex justify-content-center fontherder">
         <h3>พระกรุวัดพลับ-กรุวัดพลับ</h3>
       </Col>
-      
+
       <Row>
         <Col md={4}>
           <br />
@@ -30,7 +30,11 @@ function BasicExample() {
               <Col>
                 <Form.Group className="mb-3 " controlId="formBasicEmail">
                   <Form.Label>ผู้ครอบครอง</Form.Label>
-                  <Form.Control className="" type="text" placeholder="ชื่อผู้ครอบครอง" />
+                  <Form.Control
+                    className=""
+                    type="text"
+                    placeholder="ชื่อผู้ครอบครอง"
+                  />
                 </Form.Group>
               </Col>
               <Col>
@@ -68,6 +72,8 @@ function BasicExample() {
                   <Form.Control type="text" placeholder="เนื้อ" />
                 </Form.Group>
               </Col>
+            </Row>
+            <Row>
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>จังหวัด</Form.Label>
@@ -80,7 +86,6 @@ function BasicExample() {
       </Row>
       <Row>
         <Col className="d-flex justify-content-center fontherder">
-         
           <h3>
             <b>รูปพระเพิ่มเติม</b>
           </h3>
@@ -103,7 +108,7 @@ function BasicExample() {
           </h3>
         </Col>
         <Row>
-          <Col  className="d-flex justify-content-center">
+          <Col className="d-flex justify-content-center">
             <img className="imge" variant="top" src={Wallper} />
           </Col>
         </Row>

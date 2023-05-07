@@ -1,34 +1,49 @@
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
-import Tab from 'react-bootstrap/Tab';
-
+import Container from 'react-bootstrap/Container';
+import React, { useState } from 'react';
+import Collapse from 'react-bootstrap/Collapse';
 
 function TabsExample() {
+  const [open, setOpen] = useState(false);
   return (
-    <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+    <Container>
       <Row>
-        <Col>
-          <ListGroup>
-            <ListGroup.Item action href="#link1">
+            <Col>
+            <Col  className="bgtable fontsishop ">
               ประเภทพระเครื่อง
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link2">
-              พระเนื้อผง
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link3">
-              ผงยา
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link4">
-              ผงดินเก่า
-            </ListGroup.Item>
-            <ListGroup.Item action href="#link5">
-              พระเนื้อโลหะ
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
+            </Col>
+
+            <Col  className="bgtable2">
+              <Col
+                onClick={() => setOpen(!open)}
+                aria-controls="example-collapse-text"
+                aria-expanded={open}
+                className='fontsishop'
+              >
+                พระเนื้อผง
+              </Col>
+
+              <Collapse in={open}>
+                <Col id="example-collapse-text">
+                  <Col>
+                    <Col>
+                      <Col className='fontsishop'>ผงยา</Col>
+                    </Col>
+
+                    <Col className='fontsishop'>ผงดินเก่า</Col>
+                  </Col>
+                </Col>
+              </Collapse>
+            </Col>
+
+            <Col  className="bgtable2">
+              <Col className='fontsishop'>พระเนื้อโลหะ</Col>
+            </Col>
+          </Col>
       </Row>
-    </Tab.Container>
+    </Container>
   );
 }
 

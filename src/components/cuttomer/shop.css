@@ -12,8 +12,8 @@
   color: #846f2c;
 }
 .imggo{
-  height:300px;
-  width: 250px;
+  height: 258px;
+  width: 203px;
 }
 .fonts{
   font-size: 13px;
@@ -40,6 +40,10 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+.fontsishop{
+
+  font-size: 19px;
 }
 
 @media screen and (min-width: 600px) {

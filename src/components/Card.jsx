@@ -3,76 +3,76 @@ import "../components/Card.css";
 import loedpi from "../img/loedpi.png";
 function TextExample() {
   return (
-    <Container>
-      <Row className="app-section ">
-        <Col className="app-container  ">
-          <Col className="md-5 ">
-            <Col className="d-flex justify-content-center fontherder ">
-              <h2>คลังพระเครื่อง</h2>
-            </Col>
+    <div className="shadow-auto p-3 mb-5 bg-white">
+      <div>
+        <Col className="md-5 ">
+          <Col className="d-flex justify-content-center fontherder ">
+            <h2>คลังพระเครื่อง</h2>
           </Col>
-          <Row xs="auto">
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-          </Row>
-          <Row xs="auto">
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-            <Col className="">
-              <a href="/dataShope">
-                <img className="ime" variant="top" src={loedpi} />
-              </a>
-              <Col>พระกรุวัดพลับ-กรุวัดพลับ</Col>
-            </Col>
-          </Row>
-          <Row>
-            <Col className="d-flex justify-content-center">
-              <Button className="bgtong" variant="success" size="lg">
-                เพิ่มเติม
-              </Button>
-            </Col>
-          </Row>
+        </Col>
+      </div>
+<div>
+  <Row xs="auto d-flex justify-content-center ">
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
         </Col>
       </Row>
-    </Container>
+      <Row xs="auto d-flex justify-content-center ">
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+        <Col className="">
+          <a href="/dataShope">
+            <img className="ime" variant="top" src={loedpi} />
+          </a>
+          <h6>พระกรุวัดพลับ-กรุวัดพลับ</h6>
+        </Col>
+      </Row>
+      <Col className="d-flex justify-content-center">
+              <button className="bgbutton shadow" size="lg">
+                เพิ่มเติม
+              </button>
+            </Col>
+
+</div>
+    
+    </div>
   );
 }
 
