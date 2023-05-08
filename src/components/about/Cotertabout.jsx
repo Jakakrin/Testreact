@@ -6,8 +6,10 @@ import logo from "../../img/logo.png";
 import namepro from "../../img/namepro.png";
 function Cotertabout() {
   return (
-    <Container className="container ">
-      <Row className="content-con contbg">
+    <div className="">
+<Container className="container ">
+      
+      <Row className="content-con  shadow-sm p-3 mb-5 bg-white">
         <Col className="content-l">
           <img src={logo} alt="" />
         </Col>
@@ -31,7 +33,8 @@ function Cotertabout() {
         </Col>
       </Row>
       <Row className="content-con">
-        <Col className="content-r contbg">
+
+        <Col className="content-r">
           <Col className="fontcolor" md={{ span: 6, offset: 3 }}>
             <h2>ทำไมต้องเลือกเรา</h2>
           </Col>
@@ -50,7 +53,7 @@ function Cotertabout() {
         </Col>
       </Row>
       <Row>
-        <Col className="contbg">
+        <Col className=" shadow-auto p-3 mb-5 bg-white">
           {/* <Cardaot /> */}
           <Col className="d-flex justify-content-center fontcolor">
             <h2>ทีมงาน</h2>
@@ -78,6 +81,9 @@ function Cotertabout() {
         </Col>
       </Row>
     </Container>
+
+    </div>
+    
   );
 }
 

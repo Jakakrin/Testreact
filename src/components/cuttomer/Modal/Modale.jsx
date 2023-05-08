@@ -12,7 +12,7 @@ function Example() {
 
   return (
     <>
-      <Container>
+      <div className="">
         <Row className="grid-3">
           <Col>
             <Col>
@@ -41,10 +41,19 @@ function Example() {
                     onClick={() => setSmShow(true)}
                   />
                 </Col>
+                <Col>
+                  <img
+                    className="imgsss"
+                    variant="top"
+                    src={loedpie}
+                    onClick={() => setSmShow(true)}
+                  />
+                </Col>
               </Row>
             </Col>
 
             <Modal
+            
               centered
               size="sm"
               show={smShow}
@@ -64,7 +73,7 @@ function Example() {
             </Modal>
           </Col>
         </Row>
-      </Container>
+      </div>
 
       {/*       
       <Button onClick={() => setLgShow(true)}>Large modal</Button> */}

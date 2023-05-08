@@ -41,8 +41,8 @@ class NavBarExample extends Component {
 
        */}
 
-        <nav>
-          <div>
+        <nav className="shadow-sm  bg-white">
+          <div className="col-sm-3">
             <a href="/home">
               <img className="inglogo" src={logo} alt="" />
             </a>
@@ -54,7 +54,7 @@ class NavBarExample extends Component {
               className={this.state.clicked ? "#navbar active" : "navbar "}
             >
               <li>
-                <a className="" href="/home">
+                <a className="d-flex justify-content-center" href="/home">
                   หน้าหลัก
                 </a>
               </li>

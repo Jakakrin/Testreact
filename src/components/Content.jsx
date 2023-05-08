@@ -9,7 +9,7 @@ function Content() {
   return (
     <div className=" ">
       <Row className="">
-        <Col  md={{ span: 4, offset: 2 }} className="contbg  order: 2 ">
+        <Col  md={{ span: 4, offset: 2 }} className="contbg  ">
           <Col className="fontherder">
             <h2>ทำไมต้องเลือกเรา</h2>
           </Col>

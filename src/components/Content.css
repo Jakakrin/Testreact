@@ -2,38 +2,52 @@
     max-width: 960px;
     margin: 0 auto;
 }
+
 .content-con {
     display: flex;
     justify-content: space-between;
 }
-.content-con:first-child, .content-con:last-child {
+
+.content-con:first-child,
+.content-con:last-child {
     padding: 5rem 0;
 }
+
 .content-l img {
     width: auto;
     border-radius: 10px;
 }
+
 .content-r {
     padding: 2rem;
     text-align: left;
 }
+
 .bgtongee {
     background-color: #4c7a6d;
     color: #ffffff;
-  }
+}
+
 .contbg {
-    
+
     background: #ffffff;
     box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
-  }
-  .fontherder{
+}
+
+.fontherder {
     color: #846F2C;
-  }
+}
+
 @media screen and (max-width: 480px) {
     .content-con {
         flex-direction: column;
     }
+
     .content-con:nth-child(2) .content-r {
         order: 1;
+    }
+
+    .content-con:nth-child(1).content-l {
+        order: 2;
     }
 }
