@@ -8,8 +8,10 @@ import Col from "react-bootstrap/Col";
 function Content() {
   return (
     <div className=" ">
+        
       <Row className="">
-        <Col  md={{ span: 4, offset: 2 }} className="contbg  ">
+        
+        <Col  md={{ span: 4, offset: 2 }} className="contbg  order: 2 ">
           <Col className="fontherder">
             <h2>ทำไมต้องเลือกเรา</h2>
           </Col>
@@ -23,11 +25,11 @@ function Content() {
             เพิ่มเติม
           </button>{" "}
         </Col>
-        <Col className="content-l ">
+       
+        <Col  xs={6} md={4}  >
+         <Col md={{ span: 4, offset: 4 }}className="content-l ">
             <img src={Conter} alt="" />
             </Col>
-        <Col  xs={6} md={4}  >
-        
           
         </Col>
       </Row>

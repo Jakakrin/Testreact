@@ -32,7 +32,14 @@
   bviewbox: 0 0 49 48;
   fill: none;
 }
-
+.buttonnav{
+  background-color: #4C7A6D;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
 .fontee{
   font-size: 19px;
 }
@@ -133,4 +140,16 @@ nav {
     font-size: 24px;
     cursor: pointer;
   }
+  #buttonnav{
+  display: none;
+  background-color: #4C7A6D;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
+
+}
+
+

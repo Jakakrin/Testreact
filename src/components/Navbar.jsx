@@ -68,15 +68,16 @@ class NavBarExample extends Component {
             </ul>
           </div>
           <div>
-            <Button color="#4C7A6D" className="bgbutton">
+            <button color="#4C7A6D" className="buttonnav">
               สมัครสมาชิก
-            </Button>
+            </button>
           </div>
           <div id="mobile" onClick={this.handleClick}>
             <i
               id="bar"
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
+            
           </div>
         </nav>
 

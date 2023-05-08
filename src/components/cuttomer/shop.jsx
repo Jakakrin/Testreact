@@ -10,21 +10,26 @@ function TextExamp() {
     <Container>
       <Row>
         <Row>
-          <Col>
-            <Second />
-          </Col>
+          <div className=" col-sm- d-flex justify-content-center">
+            <input type="search" className=" inpuet shadow" />
+            <button className="bgbutton shadow" size="sm">
+              ค้นหา
+            </button>
+          </div>
         </Row>
 
         <Row>
           <Col>
             <br />
-
-            <Col className="d-flex justify-content-center">
-              <h5>คลั่งพระเครื่องทั้งหมด</h5>
-            </Col>
+            <div className=" col-sm-17 d-flex justify-content-center">
+              
+              <div className="fontpa" >คลั่งพระเครื่องทั้งหมด</div>
+            </div>
+           
             <Col>
             <Row>
                  <Col>
+             
                 <Tabs />
               </Col>
               <Col>

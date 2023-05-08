@@ -1,52 +1,50 @@
 .grid {
-    display: grid;
-    row-gap: 16px;
-    column-gap: 16px;
+  display: grid;
+  row-gap: 16px;
+  column-gap: 16px;
 }
-
-
 
 .box {
-    border: 1px solid rgb(8, 158, 207);
-    border-radius: 12px;
-    padding: 8px 16px;
+  border: 1px solid rgb(8, 158, 207);
+  border-radius: 12px;
+  padding: 8px 16px;
 }
 .imgeese {
-width: 740px;
-height: 470px;
+  width: 740px;
+  height: 470px;
 }
 
-.imgeshow{
-    width: 300px;
-    height: 400px;
-
+.imgeshow {
+  width: 300px;
+  height: 400px;
 }
-.imge{
-    height: 500px;
-    width: 908px;
+.imge {
+    height: 307px;
+    width: 594px;
 }
-.imges{
-    height: 90%;
-    width: 80%;
-}
-
-.showall{
-    height: 30%;
-    width: 40%;
-}
-.Lightbox{
-    width: 257px;
-    height: 270px;
+.imges {
+  height: 90%;
+  width: 120%;
 }
 
-.fontherder{
-    color: #846F2C;
+.showall {
+  height: 30%;
+  width: 40%;
 }
-.bginput{
-
-    background: #FFFFFF;
-    box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
-    border-radius: 10px;
-
+.Lightbox {
+  width: 257px;
+  height: 270px;
 }
 
+.fontherder {
+  color: #846f2c;
+}
+.bginput {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(132, 111, 44, 0.25);
+  border-radius: 10px;
+}
+
+.form-col {
+  width: 306px;
+}

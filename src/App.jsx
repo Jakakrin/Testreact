@@ -19,6 +19,7 @@ import Contact from './Page/Contact';
 import DataShope from './Page/DataShop';
 
 import NavBarExample from './components/Navbar';
+
 // import Menu from './Components/Menu';
 // import Contact from './Page/Contact';
 function App() {

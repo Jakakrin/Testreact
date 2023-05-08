@@ -13,24 +13,24 @@ import Example from "../cuttomer/Modal/Modale";
 function BasicExample() {
   return (
 
-    <div className="shadow-auto p-3 mb-5 bg-white" >
+    <div className="shadow-lg p-3 mb-5 bg-white" >
 
-      <Row>
+      <Row >
         <Col className="d-flex justify-content-center fontherder">
           <h3>พระกรุวัดพลับ-กรุวัดพลับ</h3>
         </Col>
 
       </Row>
       <div className="shadow-auto p-3 mb-5 bg-white">
-        <Row>
-          <Col md={4} className="d-flex justify-content-center ">
+        <Row className="container">
+          <Col sm={3}  className="d-flex justify-content-center ">
             <br />
             <img src={Logo} className="imges" alt="" />
           </Col>
 
           <Col>
             <Form>
-              <Row>
+              <Row className="container">
                 <Col>
                   <Form.Group className="mb-3 " controlId="formBasicEmail">
                     <Form.Label>ผู้ครอบครอง</Form.Label>
@@ -48,7 +48,7 @@ function BasicExample() {
                   </Form.Group>
                 </Col>
               </Row>
-              <Row>
+              <Row className="container">
                 <Col>
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>ชื่อพระ</Form.Label>
@@ -63,7 +63,7 @@ function BasicExample() {
                 </Col>
               </Row>
 
-              <Row>
+              <Row className="container">
                 <Col>
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>พิมพ์</Form.Label>
@@ -77,11 +77,11 @@ function BasicExample() {
                   </Form.Group>
                 </Col>
               </Row>
-              <Row>
+              <Row className="container">
                 <Col>
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>จังหวัด</Form.Label>
-                    <Form.Control type="text" placeholder="จังหวัด" />
+                    <Form.Control type="text" placeholder="จังหวัด" className="form-col"/>
                   </Form.Group>
                 </Col>
               </Row>
